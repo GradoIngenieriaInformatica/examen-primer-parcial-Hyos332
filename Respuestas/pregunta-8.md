@@ -1,0 +1,2 @@
+db.productos.find({ categoria: "electronica" }).explain("executionStats")
+
